@@ -34,7 +34,7 @@ h3 {
 
 #container {
   width: 600px;   /* This sets the width */
-  margin: auto; /* This automatically sets left/right margins */
+  margin: 0 auto; /* This automatically sets left/right margins */
 }
 
 .card-white {
@@ -60,7 +60,13 @@ h3 {
   background-color: #a9d6e5
 }
 
+ul {
+  margin: 0;
+}
+
 .list-inline > li {
   display: inline-block;
-  padding: 0px 20px;
+/*  padding: 0px 20px;*/
+  margin: 0;
+  padding-inline-start: 0px;
 }
